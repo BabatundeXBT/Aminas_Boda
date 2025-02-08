@@ -1,0 +1,367 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light">
+      <div class="container-md">
+        <a href="#intro" class="navbar-brand">
+          <span class="fw-bold text-secondary">
+            <i class="bi bi-globe2"></i> AMINAS BODA
+          </span>
+        </a>
+        <!-- toggle btn for mobile nav  -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar links  -->
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <!-- drop down  -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PRODUCTS & SERVICES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <!-- end of drop down  -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- hero section  -->
+    <section>
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/baner2.jpg"
+              class="img-fluid d-block w-100"
+              alt="Pure Palm Oil"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Rich in Nutrients & Flavor</h1>
+              <p>Enhance your meals with premium palm oil.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/baner.jpg"
+              class="d-block w-100"
+              alt="Quality Guaranteed"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Funadeen Foods - 100% Natural Palm Oil</h1>
+              <p>Eat Healthy... Stay Healthy</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/baner3.jpg"
+              class="d-block w-100"
+              alt="Healthy Choice"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Pure & Organic</h1>
+              <p>No additives, no preservatives – just quality.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/1000991338.jpg"
+              class="d-block w-100"
+              alt="Healthy Choice"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Pure & Organic</h1>
+              <p>No additives, no preservatives – just quality.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- end of hero section  -->
+
+    <section class="my-2">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="text-warning">
+            Welcome to Aminas Boda Global Investment Limited
+          </h2>
+          <p class="lead">
+            Our commitment to excellence drives us to consistently enhance the
+            quality of our palm oil at every stage of production. What sets us
+            apart is our ability to deliver 100% pure and natural palm oil
+            directly to our customers, ensuring premium quality, rich flavor,
+            and exceptional health benefits at no extra cost.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- our product  -->
+    <div class="container-md mx-auto product">
+      <h2 class="text-center">Our Products</h2>
+      <div
+        class="bento-grid row gap-3 justify-content-center align-items-center"
+      >
+        <div class="bento-item yellow-bg col-md-3 col-10 align-self-center">
+          <h4>Bottled Palm Oil</h4>
+          <p>Easy to use for home cooking.</p>
+        </div>
+        <div class="bento-item light-bg col-md-3 col-10">
+          <h4>Packaged Palm Oil</h4>
+          <p>Convenient for storage and transport.</p>
+        </div>
+        <div class="bento-item red-bg col-md-3 col-10">
+          <h4>Wholesale & Bulk Supply</h4>
+          <p>Ideal for restaurants and businesses.</p>
+        </div>
+      </div>
+
+      <!-- product images  -->
+      <div class="row justify-content-center product-grid my-5">
+        <div class="col-md-3 mb-4 col-10">
+          <img
+            src="./assets/images/product1.jpg"
+            class="img-fluid rounded-5 h-100"
+            alt="Product 1"
+          />
+        </div>
+        <div class="col-md-3 mb-4 col-10">
+          <img
+            src="./assets/images/product4.jpg"
+            class="img-fluid rounded-5 h-100"
+            alt="Product 2"
+          />
+        </div>
+        <div class="col-md-3 mb-4 col-10">
+          <img
+            src="./assets/images/product3.jpg"
+            class="img-fluid rounded-5 h-100"
+            alt="Product 3"
+          />
+        </div>
+        <div class="col-md-3 mb-4 col-10">
+          <img
+            src="./assets/images/product44.jpg"
+            class="img-fluid rounded-5 h-100"
+            alt="Product 4"
+          />
+        </div>
+        <div class="col-md-3 mb-4 col-10">
+          <img
+            src="./assets/images/product5.jpg"
+            class="img-fluid rounded-5 h-100"
+            alt="Product 5"
+          />
+        </div>
+        <div class="col-md-3 mb-4 col-10">
+          <img
+            src="./assets/images/product6.jpg"
+            class="img-fluid rounded-5 h-100"
+            alt="Product 6"
+          />
+        </div>
+        <div class="col-md-3 mb-4 col-10">
+          <img
+            src="./assets/images/product7.jpg"
+            class="img-fluid rounded-5 h-100"
+            alt="Product 7"
+          />
+        </div>
+        <div class="col-md-3 mb-4 col-10">
+          <img
+            src="./assets/images/product8.jpg"
+            class="img-fluid rounded-5 h-100"
+            alt="Product 8"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end of our product  -->
+
+    <!-- why us -->
+    <div class="container my-5">
+      <h2 class="text-center">Why Choose Funadeen Foods Palm Oil?</h2>
+      <div class="row text-center my-5">
+        <div class="col-md-3">
+          <h4>✅ 100% Natural</h4>
+          <p>No additives or preservatives</p>
+        </div>
+        <div class="col-md-3">
+          <h4>✅ Rich in Nutrients</h4>
+          <p>High in Vitamin E and healthy fats</p>
+        </div>
+        <div class="col-md-3">
+          <h4>✅ Excellent Taste</h4>
+          <p>Enhances the flavor of your dishes</p>
+        </div>
+        <div class="col-md-3">
+          <h4>✅ Nice Aroma</h4>
+          <p>Fresh and natural fragrance</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of why us -->
+
+    <!-- what people say -->
+    <div class="container my-5 bg-warning py-5">
+      <h2 class="text-center">What People Say</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            <p>
+              "This palm oil is the best I've ever used! The taste and aroma are
+              unmatched."
+            </p>
+            <strong>- Aisha O.</strong>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            <p>
+              "Great quality and 100% natural. I love cooking with Funadeen
+              Foods Palm Oil!"
+            </p>
+            <strong>- Musa K.</strong>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 border rounded">
+            <p>
+              "Highly recommended for anyone who loves healthy and delicious
+              meals."
+            </p>
+            <strong>- Fatima S.</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of what people say -->
+
+    <!-- quality policy  -->
+    <section class="my-5">
+      <div class="container-md text-center">
+        <h4 class="text-warning fw-bold display-6">Quality Policy</h4>
+        <p class="lead my-4">
+          We at Trustlub are committed to our customers and interested parties
+          satisfaction through the manufacturing and sale of world-class
+          lubricants (Crankcase Oil, Gear Oil, Coolant, Brake Fluid, Automatic
+          Transmission Fluid, Compressor Oil, Grease, Turbine Oil, Marine Oil,
+          Hydraulic Oil, Gas Engine Oil and other Specialized Lubricants) in
+          line with ISO 9001:2015 Quality Management System and Regulatory
+          Requirements.
+        </p>
+        <p class="">
+          We also ensure the
+          <span class="fw-bold">Continual Improvement</span> of our processes.
+        </p>
+      </div>
+    </section>
+    <!-- end of quality policy  -->
+
+    <!-- footer  -->
+    <footer class="bg-secondary text-white py-5">
+      <div class="container my-5">
+        <h2 class="text-center">Where to Find Us</h2>
+        <p class="text-center">
+          <i class="bi bi-geo-alt-fill me-2"></i>
+          <strong>Head Office:</strong> 7E Bello Road by Singa Market, Kano
+          State / Lagos State
+        </p>
+        <p class="text-center">
+          <i class="bi bi-geo-alt-fill me-2"></i>
+          <strong>Branch Office:</strong> Hamir Investment Nig. Ltd, Bello Road,
+          Kano
+        </p>
+      </div>
+
+      <div class="container text-center my-5">
+        <h2>Contact Us</h2>
+        <p><i class="bi bi-whatsapp me-2"></i> 0803 636 5663 | 0912 204 6501</p>
+        <p><i class="bi bi-telephone me-2"></i> 0809 294 9492 | 0802 391 752</p>
+        <p>
+          <i class="bi bi-envelope me-2"></i>
+          <a href="mailto:aminasboda@gmail.com">aminasboda@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+    <div class="text-center text-muted mt-6 py-4 bg-white">
+      &copy; <span id="year"></span> Aminas Boda Global Limited –
+      <a href="#" class="">Privacy policy</a>
+    </div>
+    <!-- footer ending -->
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

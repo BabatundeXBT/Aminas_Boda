@@ -1,0 +1,46 @@
+
+
+
+.product{
+    width: 100%;
+    margin: auto;
+}
+
+.product-grid img {
+    transition: transform 0.3s ease-in-out;
+}
+.product-grid img:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+
+/* .bento-grid {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px 0;
+} */
+.bento-item {
+    border-radius: 10px;
+    padding: 20px;
+    color: #000;
+}
+.red-bg { background-color: #a52a2a; color: #fff; }
+.yellow-bg { background-color: #ffcf63; }
+.light-bg { background-color: #f5f5fa; }
+
+#what-people-say{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    padding:  8px 0;
+    list-style-type: square;
+    font-size: large;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
