@@ -1,99 +1,201 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../font/bootstrap-icons.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
     <title>CONTACT US</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light">
+      <div class="container-md">
+        <a href="/index.html" class="navbar-brand">
+          <span class="fw-bold text-secondary">
+            <i class="bi bi-globe2"></i> AMINAS BODA
+          </span>
+        </a>
+        <!-- toggle btn for mobile nav  -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar links  -->
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="/index.html"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">ABOUT</a>
+            </li>
+            <!-- drop down  -->
+            <li class="nav-item ">
+              <a
+                class="nav-link "
+                href="./products.html"
+                role="button"
+                data-bs-toggle=""
+                aria-expanded="false"
+              >
+                PRODUCTS & SERVICES
+              </a>
+            </li>
+            <!-- end of drop down  -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#testimonial">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar  -->
+
     <!-- contact forms -->
     <!-- form-control, form-label, form-select, input-group, input-group-text  -->
     <section id="contact">
-        <div class="container-lg">
-          <div class="text-center">
-            <h2>Get in Touch</h2>
-            <p class="lead">
-              Questions to ask? Fill out the form to contact us directly...
-            </p>
-          </div>
-          <div class="row justify-content-center my-5">
-            <div class="col-lg-6">
-              <form action="" method="post">
-                <label for="email" class="form-label">Email address:</label>
-                <div class="mb-4 input-group">
-                  <span class="input-group-text">
-                    <i class="bi bi-envelope-fill"></i>
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Get in Touch</h2>
+          <p class="lead">
+            Questions to ask? Fill out the form to contact us directly...
+          </p>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <label for="email" class="form-label">Email address:</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-envelope-fill"></i>
+                </span>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="e.g. example@gmail.com"
+                  aria-placeholder=""
+                />
+                <!-- tootip  -->
+                <span class="input-group-text">
+                  <span
+                    class="tt"
+                    data-bs-placement="bottom"
+                    title="Enter an email address we can reply to."
+                  >
+                    <i class="bi bi-question-circle text-muted"></i>
                   </span>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="e.g. example@gmail.com"
-                    aria-placeholder=""
-                  />
-                  <!-- tootip  -->
-                  <span class="input-group-text">
-                    <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
-                      <i class="bi bi-question-circle text-muted"></i>
-                    </span>
+                </span>
+              </div>
+
+              <label for="name" class="form-label">Name:</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-person-fill"></i>
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="e.g. Aminas"
+                />
+                <!-- tootip  -->
+                <span class="input-group-text">
+                  <span
+                    class="tt"
+                    data-bs-placement="top"
+                    title="pretty self explanatory really..."
+                  >
+                    <i class="bi bi-question-circle text-muted"></i>
                   </span>
-                </div>
-  
-                <label for="name" class="form-label">Name:</label>
-                <div class="mb-4 input-group">
-                  <span class="input-group-text">
-                    <i class="bi bi-person-fill"></i>
-                  </span>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="e.g. Aminas"
-                  />
-                   <!-- tootip  -->
-                   <span class="input-group-text">
-                    <span class="tt" data-bs-placement="top" title="pretty self explanatory really...">
-                      <i class="bi bi-question-circle text-muted"></i>
-                    </span>
-                  </span>
-                </div>
-  
-                <label for="subject" class="form-label"
-                  >What is your question about?</label
-                >
-                <div class="mb-4 input-group">
-                  <span class="input-group-text">
-                    <i class="bi bi-chat-right-dots-fill"></i>
-                  </span>
-                  <select name="" id="subject" class="form-select">
-                    <option value="pricing">Pricing query</option>
-                    <option value="content">Content query</option>
-                    <option value="other">Other query</option>
-                  </select>
-                </div>
-  
-                <div class="form-floating mb-4 mt-5">
-                  <textarea
-                    name=""
-                    class="form-control"
-                    id="query"
-                    style="height: 140px"
-                  ></textarea>
-                  <label for="query" class="form-label">Your query...</label>
-                </div>
-  
-                <div class="mb-4 text-center">
-                  <button type="submit" value="" class="btn btn-secondary">
-                    Submit
-                  </button>
-                </div>
-              </form>
-            </div>
+                </span>
+              </div>
+
+              <label for="subject" class="form-label"
+                >What is your question about?</label
+              >
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-chat-right-dots-fill"></i>
+                </span>
+                <select name="" id="subject" class="form-select">
+                  <option value="pricing">Pricing query</option>
+                  <option value="content">Content query</option>
+                  <option value="other">Other query</option>
+                </select>
+              </div>
+
+              <div class="form-floating mb-4 mt-5">
+                <textarea
+                  name=""
+                  class="form-control"
+                  id="query"
+                  style="height: 140px"
+                ></textarea>
+                <label for="query" class="form-label">Your query...</label>
+              </div>
+
+              <div class="mb-4 text-center">
+                <button type="submit" value="" class="btn btn-secondary">
+                  Submit
+                </button>
+              </div>
+            </form>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <script src="../js/bootstrap.bundle.js"></script>
-</body>
+    <!-- footer  -->
+    <footer class="bg-secondary text-white py-5">
+      <div class="container my-5">
+        <h2 class="text-center">Where to Find Us</h2>
+        <p class="text-center">
+          <i class="bi bi-geo-alt-fill me-2"></i>
+          <strong>Head Office:</strong> 7E Bello Road by Singa Market, Kano
+          State / Lagos State
+        </p>
+        <p class="text-center">
+          <i class="bi bi-geo-alt-fill me-2"></i>
+          <strong>Branch Office:</strong> Hamir Investment Nig. Ltd, Bello Road,
+          Kano
+        </p>
+      </div>
+
+      <div class="container text-center my-5">
+        <h2>Contact Us</h2>
+        <p><i class="bi bi-whatsapp me-2"></i> 0803 636 5663 | 0912 204 6501</p>
+        <p><i class="bi bi-telephone me-2"></i> 0809 294 9492 | 0802 391 752</p>
+        <p>
+          <i class="bi bi-envelope me-2"></i>
+          <a href="mailto:aminasboda@gmail.com">aminasboda@gmail.com</a>
+        </p>
+      </div>
+    </footer>
+    <div class="text-center text-muted mt-6 py-4 bg-white">
+      &copy; <span id="year"></span> Aminas Boda Global Limited –
+      <a href="#" class="">Privacy policy</a>
+    </div>
+    <!-- footer ending -->
+
+    <script src="../js/bootstrap.bundle.js"></script>
+  </body>
 </html>
